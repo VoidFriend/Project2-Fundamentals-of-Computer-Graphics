@@ -5,3 +5,4 @@ C:\Users\User\Desktop\Desktop\Projects\Proyecto1-Fundamentos\TestOpenGL_Lab4\x64
 C:\Users\User\Desktop\Desktop\Projects\Proyecto1-Fundamentos\Proyecto1\x64\Debug\TestOpenGL.exe
 C:\Users\User\Desktop\Desktop\Projects\Proyecto2-Fundamentos\Proyecto2\x64\Debug\TestOpenGL.exe
 C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\x64\Debug\TestOpenGL.exe
+C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\x64\Debug\TestOpenGL.exe

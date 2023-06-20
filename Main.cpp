@@ -11,8 +11,6 @@
 #include <iostream>
 #include <ctime>
 
-// Lab por : Jorge Alfonso Cancino Yáñez RUT: 20.803.364-6
-
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 void Translate(float velocity, int axis);
@@ -24,6 +22,7 @@ glm::mat4 Rotate(glm::mat4 model);
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
+//Cube properties
 glm::vec3 position;
 float scale;
 glm::vec3 rotation;
@@ -32,7 +31,6 @@ float angleVelocity = 0.015f;
 float xAngle;
 float yAngle;
 float zAngle;
-
 
 float movementVelocity = 0.01f;
 
@@ -123,19 +121,6 @@ int main()
        -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
     };
-    // world space positions of our cubes
-    glm::vec3 cubePositions[] = {
-        glm::vec3(0.0f,  0.0f,  0.0f)//,
-        //glm::vec3(2.0f,  5.0f, -15.0f),
-        //glm::vec3(-1.5f, -2.2f, -2.5f),
-        //glm::vec3(-3.8f, -2.0f, -12.3f),
-        //glm::vec3(2.4f, -0.4f, -3.5f),
-        //glm::vec3(-1.7f,  3.0f, -7.5f),
-        //glm::vec3(1.3f, -2.0f, -2.5f),
-        //glm::vec3(1.5f,  2.0f, -2.5f),
-        //glm::vec3(1.5f,  0.2f, -1.5f),
-        //glm::vec3(-1.3f,  1.0f, -1.5f)
-    };
 
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
@@ -215,8 +200,6 @@ int main()
         model = glm::translate(model, position);
 
         model = Rotate(model);
-
-        //view *= model;
 
         model = glm::scale(model, scale * glm::vec3(1.0f, 1.0f, 1.0f));
 
