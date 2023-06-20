@@ -139,17 +139,15 @@ int main()
     glEnableVertexAttribArray(1);
 
 
-    // load and create a texture 
+    // load and create a textures
     // -------------------------
 
     int width, height, nrChannels;
 
     Texture box;
-
     box.buildTexture("resources/textures/box.jpg", false);
 
     Texture kirby;
-
     kirby.buildTexture("resources/textures/kirby.png", true);
 
 
