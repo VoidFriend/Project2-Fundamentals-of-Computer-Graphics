@@ -3,6 +3,7 @@
 Controles:
 
 //Movimiento
+
 W y S: Para mover la caja en el eje Y
 
 A y D: Para mover la caja en el eje X
@@ -15,7 +16,7 @@ J y L: para rotar alrededor del eje Y
 
 I y K: para rotar alrededor del eje X
 
-U y O: para rotar alreder del eje Z;
+U y O: para rotar alrededor del eje Z;
 
 //Escalado
 

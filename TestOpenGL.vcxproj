@@ -80,9 +80,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\Libraries\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\Libraries\include;C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\Libraries\include\glm;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\Libraries\lib;$(LibraryPath)</LibraryPath>
-    <ExternalIncludePath>C:\Users\User\Desktop\Desktop\Projects\Fundamentos\Proyecto2\Proyecto2-Fundamentos\Libraries\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
