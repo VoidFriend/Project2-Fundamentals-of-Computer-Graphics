@@ -1,10 +1,11 @@
-# Proyecto2-Fundamentos
+# Project2-Fundamentals-of-Computer-Graphics
+
 Project made following the tutorial found in: https://learnopengl.com/
 The math was computed using GLM library: 
 https://glm.g-truc.net/0.9.9/
 https://github.com/g-truc/glm
 
-The objetive was to move, resize and rotate a box around.
+The objective was to move, resize and rotate a box around.
 
 Controls/Controles (Can be changed inside the project):
 
