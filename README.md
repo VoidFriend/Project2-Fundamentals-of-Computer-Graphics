@@ -1,29 +1,36 @@
 # Proyecto2-Fundamentos
+Project made following the tutorial found in: https://learnopengl.com/
+The math was computed using GLM library: 
+https://glm.g-truc.net/0.9.9/
+https://github.com/g-truc/glm
 
-Controles:
+The objetive was to move, resize and rotate a box around.
 
-//Movimiento
+Controls/Controles (Can be changed inside the project):
 
-W y S: Para mover la caja en el eje Y
+//Translate the Box // Mover la Caja
 
-A y D: Para mover la caja en el eje X
+-W, S: Move along Y axis
 
-Q y E: Para mover la caja en el eje Z
+-A, D: Move along X axis
 
-//Rotación
+-Q, E: Move along Z
 
-J y L: para rotar alrededor del eje Y
+//Rotation/Rotación
 
-I y K: para rotar alrededor del eje X
+-J, L: Rotate along Y axis.
 
-U y O: para rotar alrededor del eje Z;
+-I, K: Rotate along X axis.
 
-//Escalado
+-U, O: Rotate along Z axis;
 
+//Resize/Escalado
+
+Up and Down arrows to increase or decrease the size of the box.
 Flechas Arriba y Abajo: para aumentar o disminuir la escala de la caja.
 
-//Reset
-
+//Reset to default values
+-Space bar
 Barra espaciadora: para volver a los valores por defecto.
 
 
